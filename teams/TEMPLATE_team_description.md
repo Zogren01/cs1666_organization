@@ -14,8 +14,8 @@ https://github.com/Zogren01/team1_game
 		* Pitt Username: blm135
 		* Github Username: blm135
 	* Jacob Salmon
-		* Pitt Username: HERE
-		* Github Username: HERE
+		* Pitt Username: jhs59
+		* Github Username: jakesalmon
 
 * Advanced Topic Subteam 2: Enemy AI
 
