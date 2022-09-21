@@ -26,8 +26,8 @@ https://github.com/Zogren01/team1_game
 		* Pitt Username: jmb446
 		* Github Username: jbaker013
 	* Giovanni Versace
-			* Pitt Username: giv8
-			* Github Username: GioVersace
+		* Pitt Username: giv8
+		* Github Username: GioVersace
 	* Ethan Zhao
 		* Pitt Username: etz2
 		* Github Username: Ethanzhaocs
