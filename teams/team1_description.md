@@ -9,7 +9,7 @@ https://github.com/Zogren01/team1_game
 
 	* Brian Sostek
 		* Pitt Username: bes140
-		* Github Username: bsostek
+		* Github Username: briansostek
 	* Bailey Mathien
 		* Pitt Username: blm135
 		* Github Username: blm135
@@ -25,7 +25,7 @@ https://github.com/Zogren01/team1_game
 	* Jack Baker
 		* Pitt Username: jmb446
 		* Github Username: jbaker013
-	* Giovanni Varsace
+	* Giovanni Versace
 			* Pitt Username: giv8
 			* Github Username: GioVersace
 	* Ethan Zhao
