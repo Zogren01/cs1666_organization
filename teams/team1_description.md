@@ -55,6 +55,8 @@ The physics of the game world will function like a 2D simulation of the real wor
     
 ### ADVTOPIC2 -- Enemy AI
 
+NOTE: the AI team programmed in group meetings for most major AI changes
+
 The game will consist of at least 2 different enemy types, that all have distinctly different behavior and are capable of coordinating with one another as well as obstacles on the map.
 
 The enemies line of sight will be computed by finding all objects within range of their line of sight, finding the endpoints of the enemy itself and each object of interest on the map. Then, all lines of objects within range of the enemy that could interfere with this sight will be checked for intersection with the sight lines to determine if each object is visible. This will allow them to identify things like cover, other enemies, and map hazards as nodes on a map. This means the enemies will not be able to simply access map data, but will have to understand what is accessible to them in real time.
