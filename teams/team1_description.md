@@ -57,7 +57,7 @@ The physics of the game world will function like a 2D simulation of the real wor
 
 NOTE: the AI team programmed in group meetings for most major AI changes
 
-The game will consist of at least 2 different enemy types, that all have distinctly different behavior and are capable of coordinating with one another as well as obstacles on the map.
+The game will consist of at least 3 different enemy types, that all have distinctly different behavior and are capable of coordinating with one another as well as obstacles on the map.
 
 The enemies line of sight will be computed by finding all objects within range of their line of sight, finding the endpoints of the enemy itself and each object of interest on the map. Then, all lines of objects within range of the enemy that could interfere with this sight will be checked for intersection with the sight lines to determine if each object is visible. This will allow them to identify things like cover, other enemies, and map hazards as nodes on a map. This means the enemies will not be able to simply access map data, but will have to understand what is accessible to them in real time.
 
@@ -79,6 +79,8 @@ This design for enemies will allow for flexible behavioral patterns for the enem
 		* prioritizes keeping the maximum distance between itself and the player that is within the range of its attack
 		* if it encounters a melee enemy, it will attempt to keep itself within this enemies line of sight while attacking the player
 		* if it's health is low enough, it will retreat in attempt to heal
+	3. Other enemy:
+		* something different and cool
 
 	 enemy types can heal if they do not see the player and are standing still for a long enough time
 
@@ -94,7 +96,7 @@ This design for enemies will allow for flexible behavioral patterns for the enem
 
 * 15%: Rigid body collisions
 * 10%: Breakable objects
-* 35%: at least 2 distinct enemy types with advanced movement and decisionmaking
+* 35%: at least 3 distinct enemy types with advanced movement and decisionmaking
 * 20%: at least 3 unique items created and accessible to the player to change their abilities and gameplay (not including extra time/health/damage)
 * 10%: Reaching MVP
 
