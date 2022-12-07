@@ -80,7 +80,9 @@ This design for enemies will allow for flexible behavioral patterns for the enem
 		* if it encounters a melee enemy, it will attempt to keep itself within this enemies line of sight while attacking the player
 		* if it's health is low enough, it will retreat in attempt to heal
 	3. Other enemy:
-		* something different and cool
+		* when it is healthy it acts as a melee enemy
+		* whne wounded acts as a ranged enemy
+		* does not run away when wounded
 
 	 enemy types can heal if they do not see the player and are standing still for a long enough time
 
